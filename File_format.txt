@@ -1,0 +1,34 @@
+Change following in main.h 
+
+--> num_of_labels = 21; // change to number of labels in your case 
+
+--> In void mem_init(char *fileName) function:
+
+----- sprintf(fileNameL, "Pascal/Result/Image/%s.jpg", fileName); // Change it to your image file
+
+
+--> In void loadfiles(char *fileName) function:
+
+---- Copy your unary/dataCost in the dataCost[i] array (size imagewidth*imageheight*num_of_labels) 
+
+--> In void labeltorgb(short *map, char *filename) function: 
+
+---- converts label image to rgb image and saves in the specified folder
+
+--> In void read_files() function:
+
+Reads the names of all the test images 
+Currently it is reading pascal images e.g., 20007_000033
+You can change to your format
+---- sprintf(trainfile,  "Pascal/Result/Test.txt");
+
+--> In void set_ho_layers()
+
+reads the all the segment layers
+
+--> In void set_det_layers()
+
+reads the detector layer 
+
+--> In dense_ho_inference.cpp
+Output per pixel label is stored in map

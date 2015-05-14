@@ -1,0 +1,3 @@
+:: using image_magic
+
+im_convert.exe -delay 50 -loop 0 "C:\Users\subarna\Documents\subarna\UCSD_docs\recognition\semantic_segmentation\IJCV_meanfield_inference\mf_uphdc_vibhav_ver1\mf_uphdc_vibhav_ver1\CamVid\Result\Crf\15\001TP_*.png" "C:\Users\subarna\Documents\subarna\UCSD_docs\recognition\semantic_segmentation\IJCV_meanfield_inference\mf_uphdc_vibhav_ver1\mf_uphdc_vibhav_ver1\CamVid\Result\Crf\15\MS_HO_animate.gif" > test.txt
