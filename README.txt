@@ -1,3 +1,7 @@
+Modified by subarna Tripathi
+Enabling co-segmentation in video frames within a single frame work
+
+
 
 Author: Vibhav Vineet
 
