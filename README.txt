@@ -1,8 +1,7 @@
 Author : subarna Tripathi
 
-Enabling co-segmentation in video frames within a single frame work
-Potentials for test images are kept at CamVid/Result/ and the final results are stored
-at CamVid/Result/Crf
+Enabling co-segmentation of video frames within a single framework.
+Potentials for test images are kept at CamVid/Result/ and the final results are stored at CamVid/Result/Crf
 
 The following code implements the below papers. 
 1) Subarna Tripathi, Serge Belongie, Youngbae Hwang, Truong Nguyen
