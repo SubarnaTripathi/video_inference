@@ -1,9 +1,24 @@
-Modified by subarna Tripathi
+Author : subarna Tripathi
+
 Enabling co-segmentation in video frames within a single frame work
 Potentials for test images are kept at CamVid/Result/ and the final results are stored
 at CamVid/Result/Crf
 
+The following code implements the below papers. 
+1) Subarna Tripathi, Serge Belongie, Youngbae Hwang, Truong Nguyen
+Semantic Video Segmentation : Exploring Inference Efficiency
+ISOCC 2015
 
+2) Subarna Tripathi, Serge Belongie, Truong Nguyen, 
+Beyond Semantic Image Segmentation : Exploring Efficient Inference in Video
+CVPR 2015 workshop WiCV : Extended Abstract
+
+This software is free ONLY for research purposes. If you want to use any part of the code you
+should cite this paper. 
+
+This code is built on top of the software with below details.
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 Author: Vibhav Vineet
 
 Contact Information
